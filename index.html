@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover Kadampa Monastery: a place for Buddhist learning, meditation, prayer and compassionate community.">
+  <meta name="theme-color" content="#641f2e">
+  <title>Kadampa Monastery | Wisdom, Compassion & Peace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Kadampa Monastery home">
+        <img src="assets/monastery-logo.png" alt="Kadampa Monastery emblem">
+        <span><strong>Kadampa Monastery</strong><small data-i18n="brandLine">Wisdom · Compassion · Peace</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#events" data-i18n="navEvents">Events</a>
+        <a href="#prayers" data-i18n="navPrayers">Prayers</a>
+        <a href="#library" data-i18n="navLibrary">Dharma Library</a>
+        <a href="#donate" data-i18n="navDonate">Donate</a>
+        <a href="#visit" data-i18n="navVisit">Visit</a>
+      </nav>
+      <label class="language-picker">
+        <span class="sr-only" data-i18n="languageLabel">Choose language</span>
+        <select id="languageSelect" aria-label="Choose language">
+          <option value="en">English</option>
+          <option value="ne">नेपाली</option>
+          <option value="bo">བོད་ཡིག</option>
+          <option value="zh">中文</option>
+        </select>
+      </label>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <img class="hero-image" src="assets/monastery-night.jpg" alt="Kadampa Monastery illuminated at night with the monastic community gathered">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="heroEyebrow">A home for learning and practice</p>
+        <h1 data-i18n="heroTitle">A place of wisdom, compassion and inner peace.</h1>
+        <p class="hero-copy" data-i18n="heroCopy">Welcome to Kadampa Monastery. Explore the Buddha’s teachings, join our community activities and support the preservation of Dharma.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#events" data-i18n="heroEvents">Explore activities</a>
+          <a class="button button-outline" href="#donate" data-i18n="heroDonate">Support the monastery</a>
+        </div>
+      </div>
+      <div class="hero-caption" data-i18n="heroCaption">A community gathered in study, reflection and practice</div>
+    </section>
+
+    <section class="welcome section-wrap" id="about">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="aboutEyebrow">Welcome</p>
+        <h2 data-i18n="aboutTitle">Discover Kadampa Monastery</h2>
+      </div>
+      <div class="welcome-grid">
+        <div>
+          <p class="lead" data-i18n="aboutLead">A place to learn, reflect, meditate and cultivate a kind heart.</p>
+          <p data-i18n="aboutText">Kadampa Monastery is a Buddhist community dedicated to the study and practice of Buddha’s teachings. We welcome visitors, students and friends who wish to learn, participate in spiritual activities or connect with the monastic community.</p>
+          <a class="text-link" href="#visit" data-i18n="aboutLink">Plan a visit <span>↗</span></a>
+        </div>
+        <img class="welcome-image" src="assets/monks-meditation.jpg" alt="Monks seated together in meditation in the monastery courtyard">
+      </div>
+    </section>
+
+    <section class="offerings">
+      <div class="section-wrap">
+        <div class="section-heading centered">
+          <p class="eyebrow" data-i18n="waysEyebrow">Explore</p>
+          <h2 data-i18n="waysTitle">Ways to connect</h2>
+          <p data-i18n="waysIntro">There are many ways to take part in the life of the monastery.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card"><span class="feature-icon">☸</span><h3 data-i18n="cardEvents">Events & activities</h3><p data-i18n="cardEventsText">Find teachings, pujas, meditation sessions and community gatherings.</p><a href="#events" data-i18n="learnMore">Learn more →</a></article>
+          <article class="feature-card"><span class="feature-icon">ॐ</span><h3 data-i18n="cardPrayer">Prayer & dedications</h3><p data-i18n="cardPrayerText">Learn about prayer services and ways to dedicate positive wishes.</p><a href="#prayers" data-i18n="learnMore">Learn more →</a></article>
+          <article class="feature-card"><span class="feature-icon">▤</span><h3 data-i18n="cardLibrary">Dharma library</h3><p data-i18n="cardLibraryText">Explore books, reading resources and teachings shared by the monastery.</p><a href="#library" data-i18n="learnMore">Learn more →</a></article>
+          <article class="feature-card"><span class="feature-icon">♡</span><h3 data-i18n="cardDonate">Make an offering</h3><p data-i18n="cardDonateText">Support the monastic community and the continuation of Dharma activities.</p><a href="#donate" data-i18n="learnMore">Learn more →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap events-section" id="events">
+      <div class="section-heading split-heading">
+        <div><p class="eyebrow" data-i18n="eventsEyebrow">Stay connected</p><h2 data-i18n="eventsTitle">Events & monthly programme</h2></div>
+        <p data-i18n="eventsIntro">Visit this page for the latest monastery schedule and announcements.</p>
+      </div>
+      <div class="notice-panel">
+        <div class="notice-mark">✦</div>
+        <div><h3 data-i18n="eventsComing">The next programme will be announced soon.</h3><p data-i18n="eventsComingText">Please contact the monastery for current prayer times, teachings and event details. The online calendar will be updated when the official schedule is ready.</p></div>
+        <a class="text-link" href="#visit" data-i18n="contactUs">Contact us →</a>
+      </div>
+      <!-- Add confirmed events here only after the monastery approves dates and details. -->
+    </section>
+
+    <section class="prayer-section" id="prayers">
+      <div class="section-wrap prayer-grid">
+        <div><p class="eyebrow" data-i18n="prayerEyebrow">Prayer and dedication</p><h2 data-i18n="prayerTitle">May all beings find peace and happiness.</h2><p data-i18n="prayerText">The monastery welcomes enquiries about prayer services and dedications. To request a prayer or ask about an offering, please contact the monastery directly.</p><a class="button button-light" href="#visit" data-i18n="prayerButton">Enquire about prayers</a></div>
+        <div class="prayer-ornament" aria-hidden="true">☸</div>
+      </div>
+    </section>
+
+    <section class="section-wrap library-section" id="library">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="libraryEyebrow">Study and reflection</p>
+        <h2 data-i18n="libraryTitle">Dharma library</h2>
+        <p data-i18n="libraryIntro">A growing collection of books and learning resources will be shared here.</p>
+      </div>
+      <div class="library-placeholder"><span>▤</span><div><h3 data-i18n="libraryComing">Books and resources are being prepared.</h3><p data-i18n="libraryComingText">Please check back soon. Only materials approved for sharing will be published here.</p></div></div>
+    </section>
+
+    <section class="donation-section" id="donate">
+      <div class="section-wrap donation-inner">
+        <p class="eyebrow" data-i18n="donateEyebrow">Generosity sustains the community</p>
+        <h2 data-i18n="donateTitle">Support Kadampa Monastery</h2>
+        <p data-i18n="donateText">Offerings help support the monastery and its activities. For verified bank details, accepted payment methods or a donation receipt, please contact the monastery directly.</p>
+        <a class="button button-gold" href="#visit" data-i18n="donateButton">Ask about making an offering</a>
+        <small data-i18n="donateNote">Please confirm payment details directly with the monastery before sending funds.</small>
+      </div>
+    </section>
+
+    <section class="section-wrap visit-section" id="visit">
+      <div class="visit-copy"><p class="eyebrow" data-i18n="visitEyebrow">You are welcome</p><h2 data-i18n="visitTitle">Visit or get in touch</h2><p data-i18n="visitText">We would be happy to hear from you. Please contact the monastery to confirm visiting arrangements, current programme details and directions.</p></div>
+      <div class="contact-card">
+        <h3 data-i18n="contactHeading">Contact the monastery</h3>
+        <p data-i18n="contactPlaceholder">Add the monastery’s approved address, telephone number and email address here.</p>
+        <a class="text-link" href="mailto:">Email details to be added</a>
+        <p class="small-note" data-i18n="contactNote">The contact information will be updated once confirmed by the monastery.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand"><img src="assets/monastery-logo.png" alt=""><div><strong>Kadampa Monastery</strong><span data-i18n="footerLine">Wisdom · Compassion · Peace</span></div></div>
+      <p data-i18n="footerCopy">May the teachings flourish and all beings benefit.</p>
+      <span>© <span id="year"></span> Kadampa Monastery</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
