@@ -1,0 +1,15 @@
+Kadampa Monastery – Traditional + Modern visual refinement
+
+This update refreshes the visual styling only. It keeps the existing page sections,
+English/Nepali/Tibetan/Chinese language selector, supplied logo and monastery photos.
+It does not add unverified event dates, contact details, donation accounts or payment forms.
+
+To publish the update:
+1. Extract this ZIP on your computer.
+2. Open the GitHub repository.
+3. Upload the updated styles.css (and any other changed files if supplied) to the repository root.
+4. Commit the changes. GitHub Pages will rebuild the site automatically.
+
+The key visual direction is maroon and warm gold, cream backgrounds, elegant serif
+headings, restrained decorative details, modern rounded cards, responsive layout and
+clear keyboard focus states.
